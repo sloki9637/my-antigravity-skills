@@ -24,18 +24,27 @@ description: Creates a GitHub or GitLab Pull Request linked to an existing issue
    - Use the following Korean template for the PR body.
    - All sections are mandatory unless explicitly marked optional.
 
+6. **Set Assignee**
+   - Assign the PR to the logged-in user.
+
+7. **Set Reviewer**
+   - Assign the PR to the @coderabbitai.
+
 ---
 
 # PR Body Template (Korean)
 
 """
+
 ## 📌 개요
+
 - 이 PR이 해결하는 문제와 변경 목적을 간결히 설명
 - 관련 이슈: close #<issue-number>
 
 ---
 
 ## 🔧 변경 사항 요약
+
 - 주요 변경 내용 1
 - 주요 변경 내용 2
 - 주요 변경 내용 3
@@ -43,6 +52,7 @@ description: Creates a GitHub or GitLab Pull Request linked to an existing issue
 ---
 
 ## 🧪 테스트 내역
+
 - [ ] 로컬 테스트 완료
 - [ ] 주요 시나리오 검증
 - [ ] 회귀 영향 없음 확인
@@ -51,6 +61,7 @@ description: Creates a GitHub or GitLab Pull Request linked to an existing issue
 ---
 
 ## ✅ 완료 조건 체크
+
 (이슈의 Acceptance Criteria 기준)
 
 - [ ] 조건 1
@@ -60,6 +71,7 @@ description: Creates a GitHub or GitLab Pull Request linked to an existing issue
 ---
 
 ## 🧠 코드 리뷰 포인트
+
 - 리뷰어가 집중해서 봐야 할 부분
 - 구조적 판단이나 트레이드오프
 - 의도적으로 선택한 설계 결정
@@ -67,10 +79,11 @@ description: Creates a GitHub or GitLab Pull Request linked to an existing issue
 ---
 
 ## 📎 참고 사항 (Optional)
+
 - 스크린샷
 - 로그
 - 추가 컨텍스트
-"""
+  """
 
 ---
 
