@@ -3,6 +3,12 @@ name: git-pr-formatter
 description: Creates a GitHub or GitLab Pull Request linked to an existing issue. All PR content must be written in Korean.
 ---
 
+# Important Rules
+
+- **Always use heredoc (`cat <<'EOF'`)** for multi-line PR descriptions.
+- **Do not** wrap the description/body directly in single quotes (`'`).
+- Using methods other than heredoc for content containing Korean, Markdown, and line breaks may cause errors.
+
 # Execution Logic
 
 1. **Detect Platform**

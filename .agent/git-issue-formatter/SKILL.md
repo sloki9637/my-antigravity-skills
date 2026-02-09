@@ -3,6 +3,12 @@ name: git-issue-registrar
 description: Creates a GitHub or GitLab issue based on the implementation plan. All issue content must be written in Korean.
 ---
 
+# Important Rules
+
+- **Always use heredoc (`cat <<'EOF'`)** for multi-line issue descriptions.
+- **Do not** wrap the description/body directly in single quotes (`'`).
+- Using methods other than heredoc for content containing Korean, Markdown, and line breaks may cause errors.
+
 # Execution Logic
 
 1. **Detect Platform**: Identify if the repository is GitHub or GitLab using `git remote -v`.
