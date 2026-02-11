@@ -33,9 +33,6 @@ description: Creates a GitHub or GitLab Pull Request linked to an existing issue
 6. **Set Assignee**
    - Assign the PR to the logged-in user.
 
-7. **Set Reviewer**
-   - Assign the PR to the @coderabbitai.
-
 ---
 
 # PR Body Template (Korean)
